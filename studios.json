@@ -304,5 +304,23 @@
     "lat": 40.729500,
     "lon": -73.991994,
     "tags": ["hip hop", "studio"]
+  },
+  {
+    "eventTitle": "Dirty Thursday: 90s Night",
+    "studioName": "",
+    "barName": "House of Yes",
+    "type": "",
+    "dateTime": "June 6 | 10 PM - 4 AM",
+    "location": "2 Wyckoff Ave., Brooklyn, NY 11237",
+    "city": "Brooklyn, NY",
+    "borough": "Brooklyn",
+    "dayOfWeek": "Thursday",
+    "time": "10 PM - 4 AM",
+    "url": "https://www.eventbrite.com/e/dirty-thursday-90s-night-tickets-60022335421/amp",
+    "cost": "",
+    "featured": true,
+    "lat": 40.706819,
+    "lon": -73.923581,
+    "tags": ["", ""]
   }
 ]
