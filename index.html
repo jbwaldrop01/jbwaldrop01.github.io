@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dance Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Lobster|Monoton|Righteous|Roboto+Condensed:300,300i,400,400i,700,700i|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+
+  <body>
+    <div class="flex-main-container">
+      <div class="left-nav-container">
+        <div class="flex-header-container">
+
+          <div class="logo">
+            <a href="index.html"><img src="images/logo.png"></a>
+          </div><!--end of logo-->
+
+          <a href="#" id="mobile-menu-button"
+          <i class="fas fa-bars fa-lg"></i>
+          </a>
+
+        </div><!--end of flex-header-container-->
+
+        <div class="nav-container hiding">
+          <div class="menu-container">
+
+            <button type="button" data-filter=".featuredEvent">Featured</button>
+            <div class="featured">
+              <a href="#" id="featuredActive">+  Featured</a>
+
+              <div id="hideFeatured">
+                <div  data-filter-group>
+                  <label class="checkbox-container">Show Featured
+                    <input type="checkbox" value=".featuredEvent">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+              </div>
+            </div><!--end of featured-->
+
+            <div  class="city">
+              <a id="cityActive" href="#">+  Borough</a>
+
+              <div id="hideCity">
+
+                <!-- <form action="#"> -->
+                <div class="data-filter-group">
+                  <label class="checkbox-container">Bronx
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+
+                  <label class="checkbox-container">Brooklyn
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+
+                  <label class="checkbox-container">Manhattan
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+
+                  <label class="checkbox-container">Queens
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+
+                  <label class="checkbox-container">Staten Island
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                <!-- </form> -->
+              </div><!--end of answer1-->
+            </div><!--end of city-->
+
+            <div  class="type">
+              <a id="typeActive" href="#">+  Type</a>
+              <div id="hideType">
+              <div class="search">
+
+                <!-- <form action="#"> -->
+                <!-- <button type="button" data-filter="all">All</button>
+                <button type="button" data-filter=".studio">Studio</button> -->
+
+                <div data-filter-group>
+                  <label class="checkbox-container">Event
+                    <input type="checkbox" value=".event">
+                    <span class="checkmark"></span>
+                  </label>
+
+                  <label class="checkbox-container">Studio
+                    <input type="checkbox" value=".studio">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                <!-- </form> -->
+
+                <!-- <form action="#" method="get">
+                  <input type="text" placeholder="Search by Type">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form> -->
+
+              </div><!--end of search-->
+            </div><!--end of answer 2-->
+            </div><!--end of type-->
+          </div><!--end of nav-container hiding-->
+        </div><!--end of menu-container-->
+      </div><!--end of left-nav-container-->
+
+      <div class="right-content-container">
+        <div class="flex-hub-container">
+
+
+        </div><!--end of flex-hub-container-->
+      </div><!--end of right-content-container-->
+    </div> <!--end of flex-main-container -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/mixitup-multifilter.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
