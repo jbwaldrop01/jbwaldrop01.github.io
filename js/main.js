@@ -182,7 +182,4 @@ $(function () {
   // function showHideType () {
   //   $('#hideType').slideToggle()
   // }
-
-// code when trying to use search bar to search by tags
-// var elements = document.getElementsByTagName(Studio, Salsa, Disco)
 })

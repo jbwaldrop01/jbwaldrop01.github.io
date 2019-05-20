@@ -286,5 +286,23 @@
     "lat": 40.706819,
     "lon": -73.923581,
     "tags": ["disco", ""]
+  },
+  {
+    "eventTitle": "",
+    "studioName": "Diva Dance",
+    "barName": "",
+    "type": "hip hop",
+    "dateTime": "Schedule a Class",
+    "location": "440 Lafayette St., New York, NY 10003",
+    "city": "New York, NY",
+    "borough": "Manhattan",
+    "dayOfWeek": "Studio",
+    "time": "",
+    "url": "http://divadancecompany.com/",
+    "cost": "",
+    "featured": false,
+    "lat": 40.729500,
+    "lon": -73.991994,
+    "tags": ["hip hop", "studio"]
   }
 ]
