@@ -14,10 +14,6 @@ $(function () {
     console.log(error)
   })
 
-  // Hiding the show/hide js for now
-  // $('#hideCity').hide()
-  // $('#hideType').hide()
-
   // Add click event to each link
   // using special jquery object $(this)
   // to reference each element that was matched
