@@ -865,10 +865,6 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     margin-bottom: 1.5em;
   }
 
-  .menu-container {
-    display: none;
-  }
-
   #mobile-menu-button {
     color: #CE0C7E;
     display: block;
@@ -893,10 +889,6 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     text-decoration: none;
     padding-left: 10%;
   }
-
-  /* .menu-container {
-    display: none;
-  } */
 
   .logo {
     width: 50%;
