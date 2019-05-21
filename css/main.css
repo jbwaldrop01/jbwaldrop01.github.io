@@ -879,6 +879,22 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   .logo {
     width: 50%;
   }
+
+  .nav-container {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+ }
+
+ .nav-container.showing {
+  transition: all 500ms ease-in-out;
+  max-height: 500px;
+ }
+
+ .nav-container.hiding {
+  transition: all 500ms ease-in-out;
+  max-height: 0px;
+ }
 }
 
 /*
