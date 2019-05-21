@@ -160,7 +160,7 @@ $(function () {
        } else {
            $('.nav-container').removeClass('hiding').addClass('showing')
        }
-   })
+   });
 // Hiding the show/hide js for now
 // Use jQuery to hide all of the
 // filters when the application first
