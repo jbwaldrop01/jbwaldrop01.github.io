@@ -891,7 +891,7 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
 
   .menu-container {
-    display: none;
+    margin-top:30px;
   }
 
   .logo {
