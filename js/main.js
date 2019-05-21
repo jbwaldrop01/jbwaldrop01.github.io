@@ -120,8 +120,13 @@ $(function () {
       featuredClass = 'featuredEvent'
     }
 
+    let boroughClass = event.borough
+
+    console.log(`${name}: ${event.url}`)
+
     return (
-      `<div class="hub-card v${version} mix ${typeClass} ${featuredClass}">
+      `<div class="hub-card v${version} mix ${typeClass} ${featuredClass} ${boroughClass}">
+
         <div class="hvr-bounce-to-bottom-${version}">
           <img src="images/pattern_${version}.png">
 
@@ -156,30 +161,30 @@ $(function () {
            $('.nav-container').removeClass('hiding').addClass('showing')
        }
    })
-  // Hiding the show/hide js for now
-  // // Use jQuery to hide all of the
-  // // answers when the application first
-  // // loads
-  //
+// Hiding the show/hide js for now
+// Use jQuery to hide all of the
+// filters when the application first
+// loads
+
   // $('#cityActive').click(showHideCity)
   // $('#typeActive').click(showHideType)
-  //
+
   // function showHideCity () {
-  //   // print out message to ensure
-  //   // function "does something" when
-  //   // #answer1 element is clicked
+// print out message to ensure
+// function "does something" when
+// #answer1 element is clicked
   //   console.log('calling showHideCity')
-  //
-  //   // show the #answer1 element using .show()
-  //   // $("#answer1").show()
-  //
-  //   // slide toggle #answer1 using .slideToggle()
-  //   // this will open and close the #answer1 element
-  //   // using a slide animation
+
+// show the #answer1 element using .show()
+   //  $("#answer1").show()
+
+// slide toggle #answer1 using .slideToggle()
+// this will open and close the #answer1 element
+// using a slide animation
   //   $('#hideCity').slideToggle()
   // }
 
   // function showHideType () {
   //   $('#hideType').slideToggle()
   // }
-})
+});

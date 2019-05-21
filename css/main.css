@@ -819,7 +819,7 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 /*
   Medium devices (tablets, 873px and down)
 */
-@media only screen and (max-width: 873px) {
+@media only screen and (max-width: 850px) {
   /* styles go here */
   .flex-hub-container {
     flex-wrap: wrap;
