@@ -18,15 +18,15 @@ $(function () {
   // using special jquery object $(this)
   // to reference each element that was matched
 
-  links.on('click', function () {
-
-    // Remove the active class from all links
-    links.removeClass('active')
-
-    // Add the active class to the link that was clicked
-    // which is refererenced by $(this)
-    $(this).addClass('active')
-  })
+  // links.on('click', function () {
+  //
+  //   // Remove the active class from all links
+  //   links.removeClass('active')
+  //
+  //   // Add the active class to the link that was clicked
+  //   // which is refererenced by $(this)
+  //   $(this).addClass('active')
+  // })
 
   $('#featured').click(handleFeature)
 
